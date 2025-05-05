@@ -1,0 +1,137 @@
+.dvz-content {
+  text-rendering: optimizeLegibility;
+  line-height: 1.558;
+  color: #000;
+  font-family: "BWHaasDingbat", "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+.headline {
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1.2;
+  font-family: "BWHaasDingbat", "BWHaasHead", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 920px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.dvz-content .lede {
+  margin: 0;
+  padding-top: 70px;
+}
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.dvz-content .copy-width {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 620px;
+}
+
+.copy-width {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.subhead {
+  font-family: BWHaasGroteskWeb, BWHaasGroteskWeb-fallback, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 22px;
+  line-height: 130%;
+
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 620px;
+}
+
+.byline-date {
+  margin: 20px auto 56px;
+  text-align: center;
+  line-height: 1;
+  font-family: "BWHaasDingbat", "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+}
+.byline-date p {
+  margin: 0.3rem auto;
+}
+
+footer {
+  padding: 1rem 0;
+  font-size: 0.8125rem;
+  max-width: 620px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border-top: 1px solid #ddd;
+  color: #767676;
+  font-size: 1rem;
+}
+
+footer p {
+  font-family: "BWHaasText", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 760px) {
+  .dvz-content .headline {
+    line-height: 1.1;
+    font-size: 2.375rem;
+  }
+}
+
+@media only screen and (max-width: 673.913px) {
+  .dvz-content .copy-width {
+    max-width: 94%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .dvz-content .subhead,
+  .chart-title {
+    line-height: 1.2648;
+    font-size: 1.0125rem;
+    max-width: 94%;
+  }
+}
+
+@media (max-width: 760px) {
+  footer {
+    line-height: 1.2648;
+  }
+}
+
+@media (max-width: 760px) {
+  footer p {
+    font-size: 0.8rem;
+  }
+}
