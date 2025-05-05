@@ -1,0 +1,40 @@
+#chart-container {
+  width: 100%;
+  max-width: 620px; /* 可以自己控制最大宽度 */
+  margin: 3rem auto 0; /* 居中 */
+  position: relative;
+}
+
+#chart {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.axis path,
+.axis line {
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.legend {
+  font-size: 16px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese",
+    "Noto Sans Chinese", Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+  .tooltip {
+    font-size: 10px;
+    padding: 4px;
+  }
+}

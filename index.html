@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manufactured Homes Seen Easing Housing Crisis as Builders Slump</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="chart.css" />
   </head>
   <body>
     <div class="dvz-content">
@@ -22,15 +23,20 @@
         </p>
 
         <p class="copy-width">
-          Cavco Industries Inc., a Phoenix, Arizona-based manufactured home company, climbed 30% in
+          Cavco Industries Inc., a Phoenix, Arizona-based manufactured home company, climbed 40% in
           the past 12 months, the biggest increase among all home builders, according to data
           compiled by Bloomberg.
         </p>
 
+        <div id="chart-container">
+          <div id="chart"></div>
+          <div class="source">Source: Bloomberg Terminal</div>
+        </div>
+
         <p class="copy-width">
           Rivals Bedford, Texas-based Legacy Housing Corp. and Troy, Michigan-based Champion Homes
-          Inc. gained 18% and 8.7%, respectively, while the broader home construction sector fell
-          14%, suggesting growing investor interest in factory-built homes as an alternative to
+          Inc. gained 22% and 19%, respectively, while the broader home construction sector fell
+          10%, suggesting growing investor interest in factory-built homes as an alternative to
           traditional housing.
         </p>
 
@@ -180,5 +186,8 @@
         </div>
       </footer>
     </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="chart.js"></script>
   </body>
 </html>
