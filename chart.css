@@ -42,3 +42,10 @@
 .source {
   font-size: 1rem;
 }
+
+.map {
+  width: 100%;
+  max-width: 620px;
+  margin: 3rem auto 0rem;
+  position: relative;
+}
